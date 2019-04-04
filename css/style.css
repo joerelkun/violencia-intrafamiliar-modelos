@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+.tag{
+	margin-left: 50px;
+}
+ul {
+	
+  font-size: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
+li a {
+	  color: white;
+  text-align: center;
+  float: left;
+background-color: #111;
+	display: block;
+   padding-left: 70px;
+  padding-right: 100px;
+  
+}
+a:hover {
+	color: gray;
+	background-color: navajowhite;
+ }
+.titulo{
+	font-size: 80px;
+	font-weight: 600;
+	margin-bottom: 50px;
+	margin-left: 30px;
+
+}
+
+.cuerpo{
+	float: left;
+  width: 49%;
+  padding-right: 50px;
+	padding-left: 50px;
+	font-size:20px; 
+	
+}
+
+.cuerpo2{
+	float: none;
+  width: 100%;
+  padding-right: 50px;
+	padding-left: 50px;
+	font-size:20px; 
+	
+}
+
+	
+
+
+.tag{
+	clear:left;
+	}
+
+.cuerpoBorde{
+		border-right: solid darkgray 3px;
+}
+.container{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+.gradient{  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+	
+	
+}
+
+.titulo_gradient{text-align: center;
+	font-size: 80px;
+	font-weight: 600;
+	color:rgba(255, 255, 255, 0.5);
+}
+.texto_gradient{
+	color: aliceblue;
+	font-size: 30px;
+}
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+
+  padding: 10px;
+}
+.tag1{
+	margin:55px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+iframe{
+float: none;
+}
